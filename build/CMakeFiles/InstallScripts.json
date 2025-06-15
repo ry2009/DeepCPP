@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/ryanmathieu/C++DL/build/cmake_install.cmake",
+		"/Users/ryanmathieu/C++DL/build/src/core/cmake_install.cmake",
+		"/Users/ryanmathieu/C++DL/build/src/operators/cmake_install.cmake",
+		"/Users/ryanmathieu/C++DL/build/src/training/cmake_install.cmake",
+		"/Users/ryanmathieu/C++DL/build/src/benchmarks/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

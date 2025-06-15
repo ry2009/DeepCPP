@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdeepcpp_attention.a CMakeFiles/deepcpp_attention.dir/attention/flash_attention.cpp.o CMakeFiles/deepcpp_attention.dir/attention/sparse_attention.cpp.o CMakeFiles/deepcpp_attention.dir/attention/linear_attention.cpp.o CMakeFiles/deepcpp_attention.dir/attention/multi_query_attention.cpp.o
+/usr/bin/ranlib libdeepcpp_attention.a

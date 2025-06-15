@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdeepcpp_benchmarks.a CMakeFiles/deepcpp_benchmarks.dir/comprehensive_benchmark.cpp.o
+/usr/bin/ranlib libdeepcpp_benchmarks.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdeepcpp_activations.a CMakeFiles/deepcpp_activations.dir/activations/gelu.cpp.o CMakeFiles/deepcpp_activations.dir/activations/swish.cpp.o CMakeFiles/deepcpp_activations.dir/activations/mish.cpp.o CMakeFiles/deepcpp_activations.dir/activations/geglu.cpp.o
+/usr/bin/ranlib libdeepcpp_activations.a

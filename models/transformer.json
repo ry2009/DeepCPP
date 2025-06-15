@@ -1,0 +1,11 @@
+{
+  "model_class": "OptimizedTransformer",
+  "total_parameters": 52763904,
+  "trainable_parameters": 52763904,
+  "input_shape": [
+    1,
+    128
+  ],
+  "model_size_mb": 141.31,
+  "onnx_path": "models/transformer.onnx"
+}

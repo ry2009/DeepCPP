@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdeepcpp_tensor.a CMakeFiles/deepcpp_tensor.dir/tensor/tensor.cpp.o
+/usr/bin/ranlib libdeepcpp_tensor.a

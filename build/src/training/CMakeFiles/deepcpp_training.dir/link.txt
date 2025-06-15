@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdeepcpp_training.a CMakeFiles/deepcpp_training.dir/custom_trainer.cpp.o
+/usr/bin/ranlib libdeepcpp_training.a
