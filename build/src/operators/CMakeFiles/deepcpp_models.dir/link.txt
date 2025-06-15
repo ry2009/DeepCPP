@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdeepcpp_models.a CMakeFiles/deepcpp_models.dir/models/ssm.cpp.o CMakeFiles/deepcpp_models.dir/models/mixture_of_experts.cpp.o CMakeFiles/deepcpp_models.dir/models/transformer_blocks.cpp.o
-/usr/bin/ranlib libdeepcpp_models.a

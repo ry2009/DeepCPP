@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -march=native -Xpreprocessor -fopenmp -I/usr/local/opt/libomp/include -O3 -DNDEBUG -ffast-math -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/opt/libomp/lib -lomp CMakeFiles/benchmark.dir/benchmark.cpp.o -o benchmark  /usr/local/Cellar/onnxruntime/1.22.0/lib/libonnxruntime.dylib /usr/local/opt/libomp/lib/libomp.dylib

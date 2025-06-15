@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdeepcpp_memory.a CMakeFiles/deepcpp_memory.dir/memory/memory_pool.cpp.o
-/usr/bin/ranlib libdeepcpp_memory.a

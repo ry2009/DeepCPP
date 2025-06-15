@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdeepcpp_normalization.a CMakeFiles/deepcpp_normalization.dir/normalization/layer_norm.cpp.o CMakeFiles/deepcpp_normalization.dir/normalization/rms_norm.cpp.o CMakeFiles/deepcpp_normalization.dir/normalization/group_norm.cpp.o CMakeFiles/deepcpp_normalization.dir/normalization/batch_norm.cpp.o
-/usr/bin/ranlib libdeepcpp_normalization.a

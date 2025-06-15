@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdeepcpp_integration.a CMakeFiles/deepcpp_integration.dir/onnx_integration.cpp.o
-/usr/bin/ranlib libdeepcpp_integration.a

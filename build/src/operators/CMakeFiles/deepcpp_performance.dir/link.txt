@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdeepcpp_performance.a CMakeFiles/deepcpp_performance.dir/performance/simd_kernels.cpp.o CMakeFiles/deepcpp_performance.dir/performance/kernel_fusion.cpp.o CMakeFiles/deepcpp_performance.dir/performance/memory_optimization.cpp.o
-/usr/bin/ranlib libdeepcpp_performance.a
