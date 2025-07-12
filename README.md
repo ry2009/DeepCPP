@@ -1,4 +1,4 @@
-# 🚀 C++DL: Native Deep Learning Framework
+# C++DL: Native Deep Learning Framework
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 🎯 **Vision & Goals**
+##  **Vision & Goals**
 
 ### **The Problem We Solve**
 - **macOS Intel Compatibility**: No more CUDA/ROCm installation nightmares or kernel compatibility issues
@@ -25,38 +25,38 @@
 
 ### **Our Mission**
 Build a **complete deep learning ecosystem** that prioritizes:
-- 🧠 **Educational Value**: Learn by implementing, not by using black boxes
-- ⚡ **Native Performance**: C++ speed with optional Python integration
-- 🖥️ **Cross-Platform**: Especially optimized for macOS Intel systems
-- 🔧 **Full Control**: Modify any component for research and experimentation
+-  **Educational Value**: Learn by implementing, not by using black boxes
+-  **Native Performance**: C++ speed with optional Python integration
+-  **Cross-Platform**: Especially optimized for macOS Intel systems
+-  **Full Control**: Modify any component for research and experimentation
 
 ---
 
-## 🏗️ **Current Framework Status**
+##  **Current Framework Status**
 
-### ✅ **Implemented & Working**
-- **🔥 Modern Architectures**: FAVOR+ Linear Attention, Mamba SSM, Mixture of Experts
-- **🎓 Complete Training Pipeline**: Custom trainer with Adam optimizer and gradient computation
-- **📊 Real Demo**: Sentiment analysis with 2.69M parameter model
-- **🧮 Core Operations**: Tensor math, memory management, SIMD optimizations
-- **💾 Model Persistence**: Save/load trained models
-- **📈 Evaluation Metrics**: Real-time accuracy, F1 score, loss tracking
+###  **Implemented & Working**
+- ** Modern Architectures**: FAVOR+ Linear Attention, Mamba SSM, Mixture of Experts
+- ** Complete Training Pipeline**: Custom trainer with Adam optimizer and gradient computation
+- ** Real Demo**: Sentiment analysis with 2.69M parameter model
+- ** Core Operations**: Tensor math, memory management, SIMD optimizations
+- ** Model Persistence**: Save/load trained models
+- ** Evaluation Metrics**: Real-time accuracy, F1 score, loss tracking
 
-### 🚧 **In Development**
-- **🎮 GPU Acceleration**: Metal Performance Shaders for macOS
-- **🐍 Python Bindings**: Easy data preprocessing integration
-- **🌐 More Architectures**: Vision Transformers, BERT variants
-- **📱 Mobile Deployment**: iOS/Android optimization
+###  **In Development**
+- ** GPU Acceleration**: Metal Performance Shaders for macOS
+- ** Python Bindings**: Easy data preprocessing integration
+- ** More Architectures**: Vision Transformers, BERT variants
+- ** Mobile Deployment**: iOS/Android optimization
 
-### 🔮 **Roadmap**
-- **☁️ Distributed Training**: Multi-device support
-- **⚡ Model Quantization**: INT8/FP16 optimization
-- **🌍 WebAssembly**: Browser deployment
-- **📚 More Examples**: Computer vision, NLP, time series
+###  **Roadmap**
+- ** Distributed Training**: Multi-device support
+- ** Model Quantization**: INT8/FP16 optimization
+- ** WebAssembly**: Browser deployment
+- ** More Examples**: Computer vision, NLP, time series
 
 ---
 
-## 🚀 **Quick Start (5 Minutes)**
+##  **Quick Start (5 Minutes)**
 
 ### **Prerequisites**
 ```bash
@@ -84,9 +84,9 @@ make -j$(nproc)
 
 ---
 
-## 🎮 **Drop-in Play Methods**
+##  **Drop-in Play Methods**
 
-### **1. 🎯 Sentiment Analysis Demo**
+### **1.  Sentiment Analysis Demo**
 ```bash
 ./custom_training_demo
 ```
@@ -95,7 +95,7 @@ make -j$(nproc)
 - **Time**: ~5 minutes for 3 epochs
 - **Output**: Real-time training logs, accuracy metrics, model checkpoints
 
-### **2. 🏃‍♂️ Quick Component Benchmark**
+### **2.  Quick Component Benchmark**
 ```bash
 ./simple_benchmark
 ```
@@ -103,7 +103,7 @@ make -j$(nproc)
 - **Time**: ~30 seconds
 - **Output**: Performance comparison table
 
-### **3. 🔬 Architecture Explorer**
+### **3.  Architecture Explorer**
 ```bash
 ./test_real_capabilities
 ```
@@ -111,7 +111,7 @@ make -j$(nproc)
 - **Time**: ~2 minutes
 - **Output**: Detailed component analysis and performance metrics
 
-### **4. 📊 Comprehensive Benchmark**
+### **4.  Comprehensive Benchmark**
 ```bash
 ./benchmark
 ```
@@ -121,9 +121,9 @@ make -j$(nproc)
 
 ---
 
-## 🧠 **Architecture Deep Dive**
+##  **Architecture Deep Dive**
 
-### **🔥 FAVOR+ Linear Attention**
+### ** FAVOR+ Linear Attention**
 ```cpp
 // O(n) complexity instead of O(n²)
 LinearAttention attention(config);
@@ -133,7 +133,7 @@ auto output = attention.forward(input);  // Real kernel approximation
 - **Performance**: 10x faster than standard attention for long sequences
 - **Use Case**: Long document processing, time series
 
-### **🐍 Mamba State Space Models**
+### ** Mamba State Space Models**
 ```cpp
 // Selective state space with data-dependent transitions
 MambaSSM mamba(config);
@@ -143,7 +143,7 @@ auto hidden_states = mamba.forward(sequence);  // Real selective scan
 - **Performance**: Linear complexity with better memory efficiency
 - **Use Case**: Audio processing, genomics, long-range dependencies
 
-### **🎯 Mixture of Experts (MoE)**
+### ** Mixture of Experts (MoE)**
 ```cpp
 // Sparse expert routing for scalable capacity
 MixtureOfExperts moe(config);
@@ -155,7 +155,7 @@ auto output = moe.forward(input);  // Real top-k routing with load balancing
 
 ---
 
-## 💡 **Educational Examples**
+##  **Educational Examples**
 
 ### **Understanding Attention**
 ```cpp
@@ -201,7 +201,7 @@ public:
 
 ---
 
-## 🔧 **Advanced Usage**
+##  **Advanced Usage**
 
 ### **Custom Data Integration**
 ```cpp
@@ -237,7 +237,7 @@ auto prediction = loaded_model.forward(input);
 
 ---
 
-## 📊 **Performance Benchmarks**
+##  **Performance Benchmarks**
 
 | Component | C++DL | PyTorch | Speedup |
 |-----------|-------|---------|---------|
@@ -250,7 +250,7 @@ auto prediction = loaded_model.forward(input);
 
 ---
 
-## 🎓 **Learning Path**
+##  **Learning Path**
 
 ### **Beginner: Understanding Basics**
 1. Run `./custom_training_demo` - See training in action
@@ -269,24 +269,7 @@ auto prediction = loaded_model.forward(input);
 
 ---
 
-## 🤝 **Contributing**
 
-We welcome contributions! Here's how to get started:
-
-### **Easy Contributions**
-- 📝 Improve documentation and examples
-- 🐛 Fix bugs and add tests
-- 📊 Add more benchmark comparisons
-
-### **Medium Contributions**
-- 🏗️ Implement new activation functions
-- 🔧 Add new optimizers (AdamW, Lion, etc.)
-- 📱 Platform-specific optimizations
-
-### **Advanced Contributions**
-- 🧠 New architecture implementations
-- ⚡ GPU acceleration with Metal/CUDA
-- 🌐 WebAssembly compilation support
 
 ### **Development Setup**
 ```bash
@@ -303,36 +286,20 @@ ctest
 
 ---
 
-## 📚 **Documentation**
+##  **Documentation**
 
-- **📖 [Usage Guide](USAGE_GUIDE.md)**: Detailed API documentation
-- **🗺️ [Roadmap](ROADMAP.md)**: Future development plans
-- **🔬 [Architecture Details](docs/architectures.md)**: Deep technical explanations
-- **⚡ [Performance Guide](docs/performance.md)**: Optimization techniques
+- ** [Usage Guide](USAGE_GUIDE.md)**: Detailed API documentation
+- ** [Roadmap](ROADMAP.md)**: Future development plans
+- ** [Architecture Details](docs/architectures.md)**: Deep technical explanations
+- ** [Performance Guide](docs/performance.md)**: Optimization techniques
 
 ---
 
-## 🌟 **Why Choose C++DL?**
-
-### **For Researchers**
-- **🔬 Full Control**: Modify any component for experiments
-- **📊 Reproducible**: Deterministic results across platforms
-- **⚡ Fast Iteration**: Native compilation for quick testing
-
-### **For Students**
-- **🎓 Educational**: Learn by implementing, not using
-- **📚 Transparent**: Every operation is readable and modifiable
-- **🧠 Deep Understanding**: Bridge theory to implementation
-
-### **For Engineers**
-- **🚀 Production Ready**: Native binaries with minimal dependencies
-- **💾 Memory Efficient**: Direct memory management
-- **🖥️ Cross-Platform**: Consistent behavior across systems
 
 ### **For macOS Intel Users**
-- **✅ Just Works**: No CUDA installation headaches
-- **🔧 Native Performance**: Optimized for Intel architectures
-- **🛠️ Development Friendly**: Integrates with Xcode and standard tools
+- ** Just Works**: No CUDA installation headaches
+- ** Native Performance**: Optimized for Intel architectures
+- ** Development Friendly**: Integrates with Xcode and standard tools
 
 ---
 
@@ -342,11 +309,6 @@ MIT License - Use freely for research, education, or commercial purposes.
 
 ---
 
-## 🙏 **Acknowledgments**
-
-- **Mamba**: Based on "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
-- **FAVOR+**: Inspired by "Rethinking Attention with Performers"
-- **MoE**: Following "Switch Transformer: Scaling to Trillion Parameter Models"
 
 ---
 
